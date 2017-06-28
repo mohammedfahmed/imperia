@@ -1,0 +1,64 @@
+
+		--==[ SPLAT! HD v1.4.2 Path Analysis ]==--
+
+---------------------------------------------------------------------------
+
+Transmitter site: transmitter
+Site location: 33.0158 North / 324.8596 West (33° 0' 56" N / 324° 51' 34" W)
+Ground elevation: 177.17 feet AMSL
+Antenna height: 6.56 feet AGL / 183.73 feet AMSL
+Distance to receiver: 0.45 miles
+Azimuth to receiver: 63.71 degrees
+Elevation angle to receiver: +3.0675 degrees
+Elevation angle to the first obstruction: +3.0788 degrees
+
+---------------------------------------------------------------------------
+
+Receiver site: receiver
+Site location: 33.0187 North / 324.8526 West (33° 1' 7" N / 324° 51' 9" W)
+Ground elevation: 305.12 feet AMSL
+Antenna height: 6.56 feet AGL / 311.68 feet AMSL
+Distance to transmitter: 0.45 miles
+Azimuth to transmitter: 243.71 degrees
+Depression angle to transmitter: -3.0741 degrees
+Depression angle to the first obstruction: -2.1475 degrees
+
+---------------------------------------------------------------------------
+
+ITWOM Version 3.0 Parameters Used In This Analysis:
+
+Earth's Dielectric Constant: 15.000
+Earth's Conductivity: 0.005 Siemens/meter
+Atmospheric Bending Constant (N-units): 301.000 ppm
+Frequency: 300.000 MHz
+Radio Climate: 5 (Continental Temperate)
+Polarization: 0 (Horizontal)
+Fraction of Situations: 50.0%
+Fraction of Time: 50.0%
+
+---------------------------------------------------------------------------
+
+Summary For The Link Between transmitter and receiver:
+
+Free space path loss: 79.25 dB
+ITWOM Version 3.0 path loss: 100.83 dB
+Attenuation due to terrain shielding: 21.58 dB
+Mode of propagation: Line of Sight
+ITWOM error number: 4
+  Warning: Some parameters are out of range.
+  Results are probably invalid.
+
+---------------------------------------------------------------------------
+
+Between receiver and transmitter, SPLAT! HD detected obstructions at:
+
+    33.0182 N, 324.8537 W,  0.07 miles, 291.99 feet AMSL
+
+Antenna at receiver must be raised to at least 7.56 feet AGL
+to clear all obstructions detected by SPLAT! HD.
+
+Antenna at receiver must be raised to at least 243.56 feet AGL
+to clear the first Fresnel zone.
+
+Antenna at receiver must be raised to at least 61.56 feet AGL
+to clear 60% of the first Fresnel zone.

@@ -1,0 +1,11 @@
+
+	--==[ SPLAT! HD v1.4.2 Site Analysis Report For: transmitter ]==--
+
+---------------------------------------------------------------------------
+
+Site location: 33.0158 North / 324.8596 West (33° 0' 56" N / 324° 51' 34" W)
+Ground elevation: 177.17 feet AMSL
+Antenna height: 6.56 feet AGL / 183.73 feet AMSL
+
+---------------------------------------------------------------------------
+
