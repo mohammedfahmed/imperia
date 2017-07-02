@@ -111,9 +111,14 @@ def distance_elevated(lat1, lon1, lat2, lon2):
     h = abs(get_elevation(lat1, lon1)-get_elevation(lat2, lon2))
     return np.sqrt(d**2 + h**2)
 
-def distance_a2g(lata, lona, latg, long, height):
-    d = distance(lata, lona, latg, long)
-    h = abs(get_elevation(lata, lona)+height-get_elevation(latg, long))
+def distance_elevated_h(lat1, lon1, height1, lat2, lon2, height2):
+    d = distance(lat1, lon1, lat2, lon2)
+    h = abs(get_elevation(lat1, lon1)+height1-get_elevation(lat2, lon2)-height2)
+    return np.sqrt(d**2 + h**2)
+
+def distance_h(lat1, lon1, height1, lat2, lon2, height2):
+    d = distance(lat1, lon1, lat2, lon2)
+    h = abs(height2-height1)
     return np.sqrt(d**2 + h**2)
 
 def draw_elevation(lat,lon, points=([],[],[])):

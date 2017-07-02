@@ -3,8 +3,8 @@ import sympy
 import scipy.constants
 
 distance = sympy.symbols("distance")
-frequency = 2347000000
-noisefloor = 4
+frequency = 2e9
+noisefloor = 7
 bandwidth = 1e6
 txpower = 0
 txantennagain = 0
