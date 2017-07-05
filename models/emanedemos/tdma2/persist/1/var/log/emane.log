@@ -1,0 +1,49 @@
+11:14:02.757390  INFO application: emane -r -d -l 3 -f /home/ubuntu/Desktop/two_points/persist/1/var/log/emane.log --pidfile /home/ubuntu/Desktop/two_points/persist/1/var/run/emane.pid --uuidfile /home/ubuntu/Desktop/two_points/persist/1/var/run/emane.uuid platform1.xml 
+11:14:02.757591  INFO application uuid: 801d8e03-a527-4071-a261-ce7716f2ef77
+11:14:02.759044  INFO TRANSPORTI 001 VirtualTransport::configure address: 10.100.0.1
+11:14:02.759112  INFO TRANSPORTI 001 VirtualTransport::configure mask: 255.255.255.0
+11:14:02.759118  INFO TRANSPORTI 001 VirtualTransport::configure arpcacheenable: 1
+11:14:02.759124  INFO TRANSPORTI 001 VirtualTransport::configure arpmodeenable: 1
+11:14:02.759129  INFO TRANSPORTI 001 VirtualTransport::configure bitrate: 0
+11:14:02.759135  INFO TRANSPORTI 001 VirtualTransport::configure broadcastmodeenable: 0
+11:14:02.759140  INFO TRANSPORTI 001 VirtualTransport::configure device: emane0
+11:14:02.759144  INFO TRANSPORTI 001 VirtualTransport::configure devicepath: /dev/net/tun
+11:14:02.759149  INFO TRANSPORTI 001 VirtualTransport::configure flowcontrolenable: 0
+11:14:02.760271  INFO MACI 001 RFPipeMACLayer::configure datarate = 1000000
+11:14:02.760320  INFO MACI 001 RFPipeMACLayer::configure delay = 0.000000
+11:14:02.760330  INFO MACI 001 RFPipeMACLayer::configure enablepromiscuousmode = off
+11:14:02.760335  INFO MACI 001 RFPipeMACLayer::configure flowcontrolenable = off
+11:14:02.760341  INFO MACI 001 RFPipeMACLayer::configure flowcontroltokens = 10
+11:14:02.760345  INFO MACI 001 RFPipeMACLayer::configure jitter = 0.000000
+11:14:02.760350  INFO MACI 001 RFPipeMACLayer::configure pcrcurveuri = file:///usr/share/emane/xml/models/mac/rfpipe/rfpipepcr.xml
+11:14:02.760359  INFO MACI 001 RFPipeMACLayer::configure neighbormetricdeletetime = 60.000000
+11:14:02.760365  INFO MACI 001 RFPipeMACLayer::configure radiometricenable = off
+11:14:02.760370  INFO MACI 001 RFPipeMACLayer::configure radiometricreportinterval = 1.000000
+11:14:02.760641  INFO PHYI 001 FrameworkPHY::configure: bandwidth = 20000000 Hz
+11:14:02.760660  INFO PHYI 001 FrameworkPHY::configure: fixedantennagain = 0.00 dBi
+11:14:02.760668  INFO PHYI 001 FrameworkPHY::configure: fixedantennagainenable = on
+11:14:02.760673  INFO PHYI 001 FrameworkPHY::configure: frequency = 2347000000 Hz
+11:14:02.760678  INFO PHYI 001 FrameworkPHY::configure: noisemode = outofband
+11:14:02.760683  INFO PHYI 001 FrameworkPHY::configure: propagationmodel = freespace
+11:14:02.760689  INFO PHYI 001 FrameworkPHY::configure: subid = 1
+11:14:02.760694  INFO PHYI 001 FrameworkPHY::configure: systemnoisefigure = 4.00 dB
+11:14:02.760699  INFO PHYI 001 FrameworkPHY::configure: txpower = 0.00 dBm
+11:14:02.760706  INFO PHYI 001 FrameworkPHY::configure: frequencyofinterest = 2347000000 Hz
+11:14:02.760711  INFO PHYI 001 FrameworkPHY::configure: noisebinsize = 20 usec
+11:14:02.760717  INFO PHYI 001 FrameworkPHY::configure: noisemaxclampenable = off
+11:14:02.760721  INFO PHYI 001 FrameworkPHY::configure: noisemaxmessagepropagation = 200000 usec
+11:14:02.760725  INFO PHYI 001 FrameworkPHY::configure: noisemaxsegmentduration = 1000000 usec
+11:14:02.760730  INFO PHYI 001 FrameworkPHY::configure: noisemaxsegmentoffset = 300000 usec
+11:14:02.760735  INFO PHYI 001 FrameworkPHY::configure: timesyncthreshold = 10000 usec
+11:14:02.761514  INFO NEMManagerImpl::configure controlportendpoint: 0.0.0.0:47000
+11:14:02.761551  INFO NEMManagerImpl::configure eventservicedevice: eth1
+11:14:02.761557  INFO NEMManagerImpl::configure eventservicegroup: 224.1.2.8:45703
+11:14:02.761561  INFO NEMManagerImpl::configure otamanagerchannelenable: on
+11:14:02.761567  INFO NEMManagerImpl::configure otamanagerdevice: eth1
+11:14:02.761572  INFO NEMManagerImpl::configure OTA Manager Channel Group: 224.1.2.8:45702
+11:14:02.761578  INFO NEMManagerImpl::configure eventservicettl: 1
+11:14:02.761582  INFO NEMManagerImpl::configure otamanagerloopback: off
+11:14:02.761587  INFO NEMManagerImpl::configure otamanagerttl: 1
+11:14:02.761592  INFO NEMManagerImpl::configure stats.event.maxeventcountrows: 0
+11:14:02.761598  INFO NEMManagerImpl::configure stats.ota.maxeventcountrows: 0
+11:14:02.761617  INFO NEMManagerImpl::configure stats.ota.maxpacketcountrows: 0

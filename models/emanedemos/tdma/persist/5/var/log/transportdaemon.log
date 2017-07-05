@@ -1,0 +1,13 @@
+15:47:24.556035  INFO application: emanetransportd -r -d -l 3 -f /home/ubuntu/Python/models/emanedemos/tdma/persist/5/var/log/transportdaemon.log --pidfile /home/ubuntu/Python/models/emanedemos/tdma/persist/5/var/run/transportdaemon.pid --uuidfile /home/ubuntu/Python/models/emanedemos/tdma/persist/5/var/run/transportdaemon.uuid transportdaemon5.xml 
+15:47:24.556278  INFO application uuid: 9d1557d2-9c20-4445-99bd-f982ca03c70e
+15:47:24.557400  INFO TRANSPORTI 005 VirtualTransport::configure address: 10.100.0.5
+15:47:24.557455  INFO TRANSPORTI 005 VirtualTransport::configure mask: 255.255.255.0
+15:47:24.557466  INFO TRANSPORTI 005 VirtualTransport::configure arpcacheenable: 1
+15:47:24.557472  INFO TRANSPORTI 005 VirtualTransport::configure arpmodeenable: 1
+15:47:24.557477  INFO TRANSPORTI 005 VirtualTransport::configure bitrate: 0
+15:47:24.557483  INFO TRANSPORTI 005 VirtualTransport::configure broadcastmodeenable: 0
+15:47:24.557489  INFO TRANSPORTI 005 VirtualTransport::configure device: emane0
+15:47:24.557494  INFO TRANSPORTI 005 VirtualTransport::configure devicepath: /dev/net/tun
+15:47:24.557499  INFO TRANSPORTI 005 VirtualTransport::configure flowcontrolenable: 0
+15:47:24.557541  INFO TRANS 005 TransportAdapterImpl::configure platformendpoint: 10.99.0.100:8205
+15:47:24.557551  INFO TRANS 005 TransportAdapterImpl::configure Transport endpoint: 10.99.0.5:8305

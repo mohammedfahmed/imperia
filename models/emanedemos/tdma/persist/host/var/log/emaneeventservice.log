@@ -1,0 +1,4 @@
+15:48:34.119796  INFO application: emaneeventservice -d -l 3 -f persist/host/var/log/emaneeventservice.log --pidfile persist/host/var/run/emaneeventservice.pid --uuidfile persist/host/var/run/emaneeventservice.uuid --starttime 15:47:58 eventservice.xml 
+15:48:34.119923  INFO application uuid: 34a600f1-3e5d-413e-ac72-3808ec35a3a0
+15:48:34.119953 ERROR Please consider using the realtime scheduler to improve fidelity.
+15:48:34.128727 ABORT BuildException: Trying to build an EventGeneratorManager without any EventGenerators

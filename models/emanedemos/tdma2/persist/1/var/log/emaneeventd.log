@@ -1,0 +1,5 @@
+11:14:02.780216  INFO application: emaneeventd -r -d -l 3 -f /home/ubuntu/Desktop/two_points/persist/1/var/log/emaneeventd.log --pidfile /home/ubuntu/Desktop/two_points/persist/1/var/run/emaneeventd.pid --uuidfile /home/ubuntu/Desktop/two_points/persist/1/var/run/emaneeventd.uuid eventdaemon1.xml 
+11:14:02.780336  INFO application uuid: f090832e-e11a-4cd3-987f-1ccf150f270e
+11:14:02.781247  INFO EventAgentManagerImpl::configure eventservicedevice: eth1
+11:14:02.781280  INFO EventAgentManagerImpl::configure eventservicegroup: 224.1.2.8:45703
+11:14:02.781288  INFO EventAgentManagerImpl::configure eventservicettl: 1

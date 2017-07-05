@@ -1,3 +1,4 @@
 *.sdf
 *.hgt
 maps/*
+*.lock

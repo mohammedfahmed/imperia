@@ -1,0 +1,4 @@
+#!/bin/bash -
+
+/home/ubuntu/Software/scripts/expctl-host start "$@" "/home/ubuntu/Desktop/two_points" my_id 2
+

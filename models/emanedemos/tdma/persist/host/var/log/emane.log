@@ -1,0 +1,200 @@
+15:48:12.347801  INFO application: /usr/bin/emane -l 3 -f persist/host/var/log/emane.log --pidfile persist/host/var/run/emane.pid --uuidfile persist/host/var/run/emane.uuid platform.xml 
+15:48:12.347881  INFO application uuid: c3acdd50-b73e-4df7-b467-db85101bcb4c
+15:48:12.348548 ERROR Please consider using the realtime scheduler to improve fidelity.
+15:48:12.573991  INFO MACI 001 TDMA::BaseModel::configure: fragmentcheckthreshold = 2
+15:48:12.574043  INFO MACI 001 TDMA::BaseModel::configure: fragmenttimeoutthreshold = 5
+15:48:12.574051  INFO MACI 001 TDMA::BaseModel::configure neighbormetricupdateinterval = 1.000000
+15:48:12.574060  INFO MACI 001 TDMA::BaseModel::configure: pcrcurveuri = file:///usr/share/emane/xml/models/mac/tdmaeventscheduler/tdmabasemodelpcr.xml
+15:48:12.578033  INFO MACI 001 TDMA::BaseModel::configure: enablepromiscuousmode = off
+15:48:12.578987  INFO MACI 001 TDMA::BaseModel::configure: flowcontrolenable = off
+15:48:12.580225  INFO MACI 001 TDMA::BaseModel::configure: flowcontroltokens = 10
+15:48:12.581449  INFO MACI 001 TDMA::BaseModel::configure: queue.aggregationenable = off
+15:48:12.582523  INFO MACI 001 TDMA::BaseModel::configure: queue.aggregationslotthreshold = 90.000000
+15:48:12.582814  INFO MACI 001 TDMA::BasicQueueManager::configure: queue.depth = 255
+15:48:12.582940  INFO MACI 001 TDMA::BaseModel::configure: queue.fragmentationenable = off
+15:48:12.583038  INFO MACI 001 TDMA::BaseModel::configure: queue.strictdequeueenable = off
+15:48:12.583490  INFO PHYI 001 FrameworkPHY::configure: bandwidth = 1000000 Hz
+15:48:12.584208  INFO PHYI 001 FrameworkPHY::configure: fixedantennagain = 0.00 dBi
+15:48:12.584404  INFO PHYI 001 FrameworkPHY::configure: fixedantennagainenable = on
+15:48:12.584490  INFO PHYI 001 FrameworkPHY::configure: frequency = 2347000000 Hz
+15:48:12.584672  INFO PHYI 001 FrameworkPHY::configure: frequencyofinterest = 2347000000 Hz
+15:48:12.585673  INFO PHYI 001 FrameworkPHY::configure: noisemode = all
+15:48:12.585776  INFO PHYI 001 FrameworkPHY::configure: propagationmodel = precomputed
+15:48:12.585860  INFO PHYI 001 FrameworkPHY::configure: subid = 7
+15:48:12.586006  INFO PHYI 001 FrameworkPHY::configure: systemnoisefigure = 4.00 dB
+15:48:12.586082  INFO PHYI 001 FrameworkPHY::configure: noisebinsize = 20 usec
+15:48:12.586145  INFO PHYI 001 FrameworkPHY::configure: noisemaxclampenable = off
+15:48:12.586216  INFO PHYI 001 FrameworkPHY::configure: noisemaxmessagepropagation = 200000 usec
+15:48:12.586360  INFO PHYI 001 FrameworkPHY::configure: noisemaxsegmentduration = 1000000 usec
+15:48:12.586433  INFO PHYI 001 FrameworkPHY::configure: noisemaxsegmentoffset = 300000 usec
+15:48:12.586494  INFO PHYI 001 FrameworkPHY::configure: timesyncthreshold = 10000 usec
+15:48:12.586554  INFO PHYI 001 FrameworkPHY::configure: txpower = 0.00 dBm
+15:48:12.587743  INFO NEM  001 NEMImpl::configure platformendpoint: 10.99.0.100:8201
+15:48:12.588141  INFO NEM  001 NEMImpl::configure transportendpoint: 10.99.0.1:8301
+15:48:12.588464  INFO MACI 002 TDMA::BaseModel::configure: fragmentcheckthreshold = 2
+15:48:12.588895  INFO MACI 002 TDMA::BaseModel::configure: fragmenttimeoutthreshold = 5
+15:48:12.589020  INFO MACI 002 TDMA::BaseModel::configure neighbormetricupdateinterval = 1.000000
+15:48:12.589094  INFO MACI 002 TDMA::BaseModel::configure: pcrcurveuri = file:///usr/share/emane/xml/models/mac/tdmaeventscheduler/tdmabasemodelpcr.xml
+15:48:12.592764  INFO MACI 002 TDMA::BaseModel::configure: enablepromiscuousmode = off
+15:48:12.593871  INFO MACI 002 TDMA::BaseModel::configure: flowcontrolenable = off
+15:48:12.594118  INFO MACI 002 TDMA::BaseModel::configure: flowcontroltokens = 10
+15:48:12.594193  INFO MACI 002 TDMA::BaseModel::configure: queue.aggregationenable = off
+15:48:12.594249  INFO MACI 002 TDMA::BaseModel::configure: queue.aggregationslotthreshold = 90.000000
+15:48:12.594305  INFO MACI 002 TDMA::BasicQueueManager::configure: queue.depth = 255
+15:48:12.594356  INFO MACI 002 TDMA::BaseModel::configure: queue.fragmentationenable = off
+15:48:12.594406  INFO MACI 002 TDMA::BaseModel::configure: queue.strictdequeueenable = off
+15:48:12.594632  INFO PHYI 002 FrameworkPHY::configure: bandwidth = 1000000 Hz
+15:48:12.594716  INFO PHYI 002 FrameworkPHY::configure: fixedantennagain = 0.00 dBi
+15:48:12.594770  INFO PHYI 002 FrameworkPHY::configure: fixedantennagainenable = on
+15:48:12.594822  INFO PHYI 002 FrameworkPHY::configure: frequency = 2347000000 Hz
+15:48:12.594881  INFO PHYI 002 FrameworkPHY::configure: frequencyofinterest = 2347000000 Hz
+15:48:12.594929  INFO PHYI 002 FrameworkPHY::configure: noisemode = all
+15:48:12.594977  INFO PHYI 002 FrameworkPHY::configure: propagationmodel = precomputed
+15:48:12.595025  INFO PHYI 002 FrameworkPHY::configure: subid = 7
+15:48:12.595072  INFO PHYI 002 FrameworkPHY::configure: systemnoisefigure = 4.00 dB
+15:48:12.595121  INFO PHYI 002 FrameworkPHY::configure: noisebinsize = 20 usec
+15:48:12.595169  INFO PHYI 002 FrameworkPHY::configure: noisemaxclampenable = off
+15:48:12.595217  INFO PHYI 002 FrameworkPHY::configure: noisemaxmessagepropagation = 200000 usec
+15:48:12.595265  INFO PHYI 002 FrameworkPHY::configure: noisemaxsegmentduration = 1000000 usec
+15:48:12.595313  INFO PHYI 002 FrameworkPHY::configure: noisemaxsegmentoffset = 300000 usec
+15:48:12.595360  INFO PHYI 002 FrameworkPHY::configure: timesyncthreshold = 10000 usec
+15:48:12.595407  INFO PHYI 002 FrameworkPHY::configure: txpower = 0.00 dBm
+15:48:12.595817  INFO NEM  002 NEMImpl::configure platformendpoint: 10.99.0.100:8202
+15:48:12.595906  INFO NEM  002 NEMImpl::configure transportendpoint: 10.99.0.2:8302
+15:48:12.596103  INFO MACI 003 TDMA::BaseModel::configure: fragmentcheckthreshold = 2
+15:48:12.596184  INFO MACI 003 TDMA::BaseModel::configure: fragmenttimeoutthreshold = 5
+15:48:12.596237  INFO MACI 003 TDMA::BaseModel::configure neighbormetricupdateinterval = 1.000000
+15:48:12.596290  INFO MACI 003 TDMA::BaseModel::configure: pcrcurveuri = file:///usr/share/emane/xml/models/mac/tdmaeventscheduler/tdmabasemodelpcr.xml
+15:48:12.601248  INFO MACI 003 TDMA::BaseModel::configure: enablepromiscuousmode = off
+15:48:12.605286  INFO MACI 003 TDMA::BaseModel::configure: flowcontrolenable = off
+15:48:12.606092  INFO MACI 003 TDMA::BaseModel::configure: flowcontroltokens = 10
+15:48:12.606733  INFO MACI 003 TDMA::BaseModel::configure: queue.aggregationenable = off
+15:48:12.607368  INFO MACI 003 TDMA::BaseModel::configure: queue.aggregationslotthreshold = 90.000000
+15:48:12.608193  INFO MACI 003 TDMA::BasicQueueManager::configure: queue.depth = 255
+15:48:12.608621  INFO MACI 003 TDMA::BaseModel::configure: queue.fragmentationenable = off
+15:48:12.608732  INFO MACI 003 TDMA::BaseModel::configure: queue.strictdequeueenable = off
+15:48:12.608976  INFO PHYI 003 FrameworkPHY::configure: bandwidth = 1000000 Hz
+15:48:12.609350  INFO PHYI 003 FrameworkPHY::configure: fixedantennagain = 0.00 dBi
+15:48:12.609426  INFO PHYI 003 FrameworkPHY::configure: fixedantennagainenable = on
+15:48:12.609482  INFO PHYI 003 FrameworkPHY::configure: frequency = 2347000000 Hz
+15:48:12.609534  INFO PHYI 003 FrameworkPHY::configure: frequencyofinterest = 2347000000 Hz
+15:48:12.609761  INFO PHYI 003 FrameworkPHY::configure: noisemode = all
+15:48:12.609828  INFO PHYI 003 FrameworkPHY::configure: propagationmodel = precomputed
+15:48:12.609879  INFO PHYI 003 FrameworkPHY::configure: subid = 7
+15:48:12.609927  INFO PHYI 003 FrameworkPHY::configure: systemnoisefigure = 4.00 dB
+15:48:12.609977  INFO PHYI 003 FrameworkPHY::configure: noisebinsize = 20 usec
+15:48:12.610025  INFO PHYI 003 FrameworkPHY::configure: noisemaxclampenable = off
+15:48:12.610072  INFO PHYI 003 FrameworkPHY::configure: noisemaxmessagepropagation = 200000 usec
+15:48:12.610334  INFO PHYI 003 FrameworkPHY::configure: noisemaxsegmentduration = 1000000 usec
+15:48:12.610398  INFO PHYI 003 FrameworkPHY::configure: noisemaxsegmentoffset = 300000 usec
+15:48:12.610450  INFO PHYI 003 FrameworkPHY::configure: timesyncthreshold = 10000 usec
+15:48:12.610498  INFO PHYI 003 FrameworkPHY::configure: txpower = 0.00 dBm
+15:48:12.610925  INFO NEM  003 NEMImpl::configure platformendpoint: 10.99.0.100:8203
+15:48:12.611306  INFO NEM  003 NEMImpl::configure transportendpoint: 10.99.0.3:8303
+15:48:12.611580  INFO MACI 004 TDMA::BaseModel::configure: fragmentcheckthreshold = 2
+15:48:12.611933  INFO MACI 004 TDMA::BaseModel::configure: fragmenttimeoutthreshold = 5
+15:48:12.612008  INFO MACI 004 TDMA::BaseModel::configure neighbormetricupdateinterval = 1.000000
+15:48:12.612064  INFO MACI 004 TDMA::BaseModel::configure: pcrcurveuri = file:///usr/share/emane/xml/models/mac/tdmaeventscheduler/tdmabasemodelpcr.xml
+15:48:12.614514  INFO MACI 004 TDMA::BaseModel::configure: enablepromiscuousmode = off
+15:48:12.614619  INFO MACI 004 TDMA::BaseModel::configure: flowcontrolenable = off
+15:48:12.614673  INFO MACI 004 TDMA::BaseModel::configure: flowcontroltokens = 10
+15:48:12.614723  INFO MACI 004 TDMA::BaseModel::configure: queue.aggregationenable = off
+15:48:12.614773  INFO MACI 004 TDMA::BaseModel::configure: queue.aggregationslotthreshold = 90.000000
+15:48:12.614824  INFO MACI 004 TDMA::BasicQueueManager::configure: queue.depth = 255
+15:48:12.614872  INFO MACI 004 TDMA::BaseModel::configure: queue.fragmentationenable = off
+15:48:12.614920  INFO MACI 004 TDMA::BaseModel::configure: queue.strictdequeueenable = off
+15:48:12.615112  INFO PHYI 004 FrameworkPHY::configure: bandwidth = 1000000 Hz
+15:48:12.615194  INFO PHYI 004 FrameworkPHY::configure: fixedantennagain = 0.00 dBi
+15:48:12.615246  INFO PHYI 004 FrameworkPHY::configure: fixedantennagainenable = on
+15:48:12.615296  INFO PHYI 004 FrameworkPHY::configure: frequency = 2347000000 Hz
+15:48:12.615345  INFO PHYI 004 FrameworkPHY::configure: frequencyofinterest = 2347000000 Hz
+15:48:12.615393  INFO PHYI 004 FrameworkPHY::configure: noisemode = all
+15:48:12.615442  INFO PHYI 004 FrameworkPHY::configure: propagationmodel = precomputed
+15:48:12.615489  INFO PHYI 004 FrameworkPHY::configure: subid = 7
+15:48:12.615537  INFO PHYI 004 FrameworkPHY::configure: systemnoisefigure = 4.00 dB
+15:48:12.615587  INFO PHYI 004 FrameworkPHY::configure: noisebinsize = 20 usec
+15:48:12.615634  INFO PHYI 004 FrameworkPHY::configure: noisemaxclampenable = off
+15:48:12.615682  INFO PHYI 004 FrameworkPHY::configure: noisemaxmessagepropagation = 200000 usec
+15:48:12.615729  INFO PHYI 004 FrameworkPHY::configure: noisemaxsegmentduration = 1000000 usec
+15:48:12.615776  INFO PHYI 004 FrameworkPHY::configure: noisemaxsegmentoffset = 300000 usec
+15:48:12.615823  INFO PHYI 004 FrameworkPHY::configure: timesyncthreshold = 10000 usec
+15:48:12.615870  INFO PHYI 004 FrameworkPHY::configure: txpower = 0.00 dBm
+15:48:12.616257  INFO NEM  004 NEMImpl::configure platformendpoint: 10.99.0.100:8204
+15:48:12.616344  INFO NEM  004 NEMImpl::configure transportendpoint: 10.99.0.4:8304
+15:48:12.617482  INFO MACI 005 TDMA::BaseModel::configure: fragmentcheckthreshold = 2
+15:48:12.617607  INFO MACI 005 TDMA::BaseModel::configure: fragmenttimeoutthreshold = 5
+15:48:12.617663  INFO MACI 005 TDMA::BaseModel::configure neighbormetricupdateinterval = 1.000000
+15:48:12.617718  INFO MACI 005 TDMA::BaseModel::configure: pcrcurveuri = file:///usr/share/emane/xml/models/mac/tdmaeventscheduler/tdmabasemodelpcr.xml
+15:48:12.621506  INFO MACI 005 TDMA::BaseModel::configure: enablepromiscuousmode = off
+15:48:12.622599  INFO MACI 005 TDMA::BaseModel::configure: flowcontrolenable = off
+15:48:12.623473  INFO MACI 005 TDMA::BaseModel::configure: flowcontroltokens = 10
+15:48:12.624216  INFO MACI 005 TDMA::BaseModel::configure: queue.aggregationenable = off
+15:48:12.629803  INFO MACI 005 TDMA::BaseModel::configure: queue.aggregationslotthreshold = 90.000000
+15:48:12.630834  INFO MACI 005 TDMA::BasicQueueManager::configure: queue.depth = 255
+15:48:12.631064  INFO MACI 005 TDMA::BaseModel::configure: queue.fragmentationenable = off
+15:48:12.631155  INFO MACI 005 TDMA::BaseModel::configure: queue.strictdequeueenable = off
+15:48:12.631454  INFO PHYI 005 FrameworkPHY::configure: bandwidth = 1000000 Hz
+15:48:12.631767  INFO PHYI 005 FrameworkPHY::configure: fixedantennagain = 0.00 dBi
+15:48:12.631982  INFO PHYI 005 FrameworkPHY::configure: fixedantennagainenable = on
+15:48:12.632067  INFO PHYI 005 FrameworkPHY::configure: frequency = 2347000000 Hz
+15:48:12.632127  INFO PHYI 005 FrameworkPHY::configure: frequencyofinterest = 2347000000 Hz
+15:48:12.632182  INFO PHYI 005 FrameworkPHY::configure: noisemode = all
+15:48:12.632235  INFO PHYI 005 FrameworkPHY::configure: propagationmodel = precomputed
+15:48:12.632432  INFO PHYI 005 FrameworkPHY::configure: subid = 7
+15:48:12.632500  INFO PHYI 005 FrameworkPHY::configure: systemnoisefigure = 4.00 dB
+15:48:12.632564  INFO PHYI 005 FrameworkPHY::configure: noisebinsize = 20 usec
+15:48:12.632621  INFO PHYI 005 FrameworkPHY::configure: noisemaxclampenable = off
+15:48:12.632676  INFO PHYI 005 FrameworkPHY::configure: noisemaxmessagepropagation = 200000 usec
+15:48:12.632743  INFO PHYI 005 FrameworkPHY::configure: noisemaxsegmentduration = 1000000 usec
+15:48:12.632859  INFO PHYI 005 FrameworkPHY::configure: noisemaxsegmentoffset = 300000 usec
+15:48:12.633141  INFO PHYI 005 FrameworkPHY::configure: timesyncthreshold = 10000 usec
+15:48:12.633325  INFO PHYI 005 FrameworkPHY::configure: txpower = 0.00 dBm
+15:48:12.634833  INFO NEM  005 NEMImpl::configure platformendpoint: 10.99.0.100:8205
+15:48:12.636403  INFO NEM  005 NEMImpl::configure transportendpoint: 10.99.0.5:8305
+15:48:12.641966  INFO MACI 006 TDMA::BaseModel::configure: fragmentcheckthreshold = 2
+15:48:12.643818  INFO MACI 006 TDMA::BaseModel::configure: fragmenttimeoutthreshold = 5
+15:48:12.644468  INFO MACI 006 TDMA::BaseModel::configure neighbormetricupdateinterval = 1.000000
+15:48:12.644631  INFO MACI 006 TDMA::BaseModel::configure: pcrcurveuri = file:///usr/share/emane/xml/models/mac/tdmaeventscheduler/tdmabasemodelpcr.xml
+15:48:12.652221  INFO MACI 006 TDMA::BaseModel::configure: enablepromiscuousmode = off
+15:48:12.652630  INFO MACI 006 TDMA::BaseModel::configure: flowcontrolenable = off
+15:48:12.652748  INFO MACI 006 TDMA::BaseModel::configure: flowcontroltokens = 10
+15:48:12.652817  INFO MACI 006 TDMA::BaseModel::configure: queue.aggregationenable = off
+15:48:12.652877  INFO MACI 006 TDMA::BaseModel::configure: queue.aggregationslotthreshold = 90.000000
+15:48:12.652946  INFO MACI 006 TDMA::BasicQueueManager::configure: queue.depth = 255
+15:48:12.653003  INFO MACI 006 TDMA::BaseModel::configure: queue.fragmentationenable = off
+15:48:12.653058  INFO MACI 006 TDMA::BaseModel::configure: queue.strictdequeueenable = off
+15:48:12.653297  INFO PHYI 006 FrameworkPHY::configure: bandwidth = 1000000 Hz
+15:48:12.653389  INFO PHYI 006 FrameworkPHY::configure: fixedantennagain = 0.00 dBi
+15:48:12.653447  INFO PHYI 006 FrameworkPHY::configure: fixedantennagainenable = on
+15:48:12.653501  INFO PHYI 006 FrameworkPHY::configure: frequency = 2347000000 Hz
+15:48:12.653554  INFO PHYI 006 FrameworkPHY::configure: frequencyofinterest = 2347000000 Hz
+15:48:12.653606  INFO PHYI 006 FrameworkPHY::configure: noisemode = all
+15:48:12.653658  INFO PHYI 006 FrameworkPHY::configure: propagationmodel = precomputed
+15:48:12.653709  INFO PHYI 006 FrameworkPHY::configure: subid = 7
+15:48:12.653760  INFO PHYI 006 FrameworkPHY::configure: systemnoisefigure = 4.00 dB
+15:48:12.653812  INFO PHYI 006 FrameworkPHY::configure: noisebinsize = 20 usec
+15:48:12.653863  INFO PHYI 006 FrameworkPHY::configure: noisemaxclampenable = off
+15:48:12.655998  INFO PHYI 006 FrameworkPHY::configure: noisemaxmessagepropagation = 200000 usec
+15:48:12.656744  INFO PHYI 006 FrameworkPHY::configure: noisemaxsegmentduration = 1000000 usec
+15:48:12.657338  INFO PHYI 006 FrameworkPHY::configure: noisemaxsegmentoffset = 300000 usec
+15:48:12.657469  INFO PHYI 006 FrameworkPHY::configure: timesyncthreshold = 10000 usec
+15:48:12.657624  INFO PHYI 006 FrameworkPHY::configure: txpower = 0.00 dBm
+15:48:12.658103  INFO NEM  006 NEMImpl::configure platformendpoint: 10.99.0.100:8206
+15:48:12.658418  INFO NEM  006 NEMImpl::configure transportendpoint: 10.99.0.6:8306
+15:48:12.658834  INFO NEMManagerImpl::configure controlportendpoint: 0.0.0.0:47000
+15:48:12.659223  INFO NEMManagerImpl::configure eventservicedevice: emanenode0
+15:48:12.659323  INFO NEMManagerImpl::configure eventservicegroup: 224.1.2.8:45703
+15:48:12.659441  INFO NEMManagerImpl::configure otamanagerchannelenable: off
+15:48:12.659508  INFO NEMManagerImpl::configure eventservicettl: 1
+15:48:12.659571  INFO NEMManagerImpl::configure otamanagerloopback: off
+15:48:12.659685  INFO NEMManagerImpl::configure otamanagerttl: 1
+15:48:12.659748  INFO NEMManagerImpl::configure stats.event.maxeventcountrows: 0
+15:48:12.659803  INFO NEMManagerImpl::configure stats.ota.maxeventcountrows: 0
+15:48:12.660077  INFO NEMManagerImpl::configure stats.ota.maxpacketcountrows: 0
+15:48:12.660904 ERROR EventService::open: Unable to set Real Time Priority
+15:48:12.662237 ERROR NEMOTAAdapter::NEMOTAAdapter: Unable to set Priority
+15:48:12.664068 ERROR NEMOTAAdapter::NEMOTAAdapter: Unable to set Priority
+15:48:12.665824 ERROR NEMOTAAdapter::NEMOTAAdapter: Unable to set Priority
+15:48:12.670490 ERROR NEMOTAAdapter::NEMOTAAdapter: Unable to set Priority
+15:48:12.680746 ERROR NEMOTAAdapter::NEMOTAAdapter: Unable to set Priority
+15:48:12.682262 ERROR NEMOTAAdapter::NEMOTAAdapter: Unable to set Priority

@@ -1,0 +1,13 @@
+11:00:14.971284  INFO application: emaneeventservice -d -l 3 -f persist/host/var/log/emaneeventservice.log --pidfile persist/host/var/run/emaneeventservice.pid --uuidfile persist/host/var/run/emaneeventservice.uuid --starttime 11:00:51 eventservice.xml 
+11:00:14.971390  INFO application uuid: c9323759-7dd3-40c2-b398-368989ca6b26
+11:00:14.971419 ERROR Please consider using the realtime scheduler to improve fidelity.
+11:00:14.973444  INFO EEL::Generator::start inputfile: ../scenario/scenario.eel
+11:00:14.974556  INFO EEL::Generator::configure loader: plugin commeffect:eelloadercommeffect:delta will load commeffect sentences mode:delta
+11:00:14.975828  INFO EEL::Generator::configure loader: plugin location,velocity,orientation:eelloaderlocation:delta will load location sentences mode:delta
+11:00:14.975895  INFO EEL::Generator::configure loader: plugin location,velocity,orientation:eelloaderlocation:delta will load velocity sentences mode:delta
+11:00:14.975904  INFO EEL::Generator::configure loader: plugin location,velocity,orientation:eelloaderlocation:delta will load orientation sentences mode:delta
+11:00:14.977598  INFO EEL::Generator::configure loader: plugin pathloss:eelloaderpathloss:delta will load pathloss sentences mode:delta
+11:00:14.979245  INFO EEL::Generator::configure loader: plugin antennaprofile:eelloaderantennaprofile:delta will load antennaprofile sentences mode:delta
+11:00:14.979376  INFO EventGeneratorManagerImpl::configure eventservicedevice: emanenode0
+11:00:14.979399  INFO EventGeneratorManagerImpl::configure eventservicegroup: 224.1.2.8:45703
+11:00:14.979406  INFO EventGeneratorManagerImpl::configure eventservicettl: 1
