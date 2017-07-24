@@ -1,13 +1,13 @@
-15:47:23.508208  INFO application: emanetransportd -r -d -l 3 -f /home/ubuntu/Python/models/emanedemos/tdma/persist/4/var/log/transportdaemon.log --pidfile /home/ubuntu/Python/models/emanedemos/tdma/persist/4/var/run/transportdaemon.pid --uuidfile /home/ubuntu/Python/models/emanedemos/tdma/persist/4/var/run/transportdaemon.uuid transportdaemon4.xml 
-15:47:23.508346  INFO application uuid: ba6e3a61-c3cc-4320-a957-8d11136e2e67
-15:47:23.509154  INFO TRANSPORTI 004 VirtualTransport::configure address: 10.100.0.4
-15:47:23.509176  INFO TRANSPORTI 004 VirtualTransport::configure mask: 255.255.255.0
-15:47:23.509182  INFO TRANSPORTI 004 VirtualTransport::configure arpcacheenable: 1
-15:47:23.509187  INFO TRANSPORTI 004 VirtualTransport::configure arpmodeenable: 1
-15:47:23.509192  INFO TRANSPORTI 004 VirtualTransport::configure bitrate: 0
-15:47:23.509196  INFO TRANSPORTI 004 VirtualTransport::configure broadcastmodeenable: 0
-15:47:23.509200  INFO TRANSPORTI 004 VirtualTransport::configure device: emane0
-15:47:23.509205  INFO TRANSPORTI 004 VirtualTransport::configure devicepath: /dev/net/tun
-15:47:23.509209  INFO TRANSPORTI 004 VirtualTransport::configure flowcontrolenable: 0
-15:47:23.509241  INFO TRANS 004 TransportAdapterImpl::configure platformendpoint: 10.99.0.100:8204
-15:47:23.509249  INFO TRANS 004 TransportAdapterImpl::configure Transport endpoint: 10.99.0.4:8304
+15:58:58.807507  INFO application: emanetransportd -r -d -l 3 -f /home/ubuntu/Python/models/emanedemos/tdma/persist/4/var/log/transportdaemon.log --pidfile /home/ubuntu/Python/models/emanedemos/tdma/persist/4/var/run/transportdaemon.pid --uuidfile /home/ubuntu/Python/models/emanedemos/tdma/persist/4/var/run/transportdaemon.uuid transportdaemon4.xml 
+15:58:58.807635  INFO application uuid: 09c6bb3f-0d65-4842-82c1-bfc00328d0cd
+15:58:58.808421  INFO TRANSPORTI 004 VirtualTransport::configure address: 10.100.0.4
+15:58:58.808450  INFO TRANSPORTI 004 VirtualTransport::configure mask: 255.255.255.0
+15:58:58.808457  INFO TRANSPORTI 004 VirtualTransport::configure arpcacheenable: 1
+15:58:58.808463  INFO TRANSPORTI 004 VirtualTransport::configure arpmodeenable: 1
+15:58:58.808467  INFO TRANSPORTI 004 VirtualTransport::configure bitrate: 0
+15:58:58.808472  INFO TRANSPORTI 004 VirtualTransport::configure broadcastmodeenable: 0
+15:58:58.808476  INFO TRANSPORTI 004 VirtualTransport::configure device: emane0
+15:58:58.808481  INFO TRANSPORTI 004 VirtualTransport::configure devicepath: /dev/net/tun
+15:58:58.808486  INFO TRANSPORTI 004 VirtualTransport::configure flowcontrolenable: 0
+15:58:58.808521  INFO TRANS 004 TransportAdapterImpl::configure platformendpoint: 10.99.0.100:8204
+15:58:58.808529  INFO TRANS 004 TransportAdapterImpl::configure Transport endpoint: 10.99.0.4:8304

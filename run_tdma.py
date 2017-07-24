@@ -41,20 +41,18 @@ def open_tdma():
 
 
 def init_nodes(service):
+    if __name__ == "__main__":
+        with open_tdma():
+            time.sleep(5)
+            esh = EMANEShell('localhost',47000)
+            # Debug level
+            #esh.do_loglevel('4')
+            # haifa airport, Naharia, Tiberias, Haifa airport 33.013 35.05
+            service = EventService(('224.1.2.8', 45703, 'emanenode0'))
 
-
-if __name__ == "__main__":
-    with open_tdma():
-        time.sleep(5)
-        esh = EMANEShell('localhost',47000)
-        # Debug level
-        #esh.do_loglevel('4')
-        # haifa airport, Naharia, Tiberias, Haifa airport 33.013 35.05
-        service = EventService(('224.1.2.8', 45703, 'emanenode0'))
-
-        init_nodes(service)
-        raw_input("Press Enter to continue...")
-        print "Done"
-        #pyplot.plot(distances, rates)
-        #pyplot.xscale('log')
-        #pyplot.show()
+            init_nodes(service)
+            raw_input("Press Enter to continue...")
+            print "Done"
+            #pyplot.plot(distances, rates)
+            #pyplot.xscale('log')
+            #pyplot.show()
